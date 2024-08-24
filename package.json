@@ -1,0 +1,30 @@
+{
+  "name": "usermanagementservice",
+  "version": "1.0.0",
+  "description": "testing a user manageent service build",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Speerfish/user-management-service.git"
+  },
+  "keywords": [
+    "user",
+    "management",
+    "service"
+  ],
+  "author": "Armin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Speerfish/user-management-service/issues"
+  },
+  "homepage": "https://github.com/Speerfish/user-management-service#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.4"
+  }
+}
